@@ -11,6 +11,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+    implementation("io.gitlab.arturbosch.detekt:detekt-api:1.4.0")
 }
 
 tasks {
